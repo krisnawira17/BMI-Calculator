@@ -1,5 +1,6 @@
 import { useState } from "react";
 import BMI_Form_Metric from "./BMI_Form_Metric";
+import BMI_Form_Imperial from "./BMI_Form_Imperial";
 
 export default function BMI() {
   const [selectedOption, setSelectedOption] = useState("imperial");
@@ -9,7 +10,7 @@ export default function BMI() {
   };
 
   return (
-    <div className="bg-white shadow-bmi w-[35rem] h-[30rem] p-[2rem] rounded-xl ml-[8rem] mt-40">
+    <div className="bg-white shadow-bmi w-[35rem] h-[32rem] p-[2rem] rounded-xl ml-[8rem] mt-40">
       <h1 className="text-headingM text-gunmetal font-semibold mb-[2rem]">
         Enter your details below
       </h1>
@@ -63,8 +64,11 @@ export default function BMI() {
           Imperial
         </label>
       </div>
-
-      <BMI_Form_Metric />
+      {selectedOption === "metric" ? (
+        <BMI_Form_Metric />
+      ) : (
+        <BMI_Form_Imperial />
+      )}
     </div>
   );
 }

@@ -9,8 +9,8 @@ export default {
         "dark-electric-blue": "#5E6E85",
         borders: "#D8E2E7",
         white: "#FFFFFF",
-        gradientFrom: "hsla(184, 95%, 92%, 0%)",
-        gradientTo: "hsl(216, 95%, 92%)",
+        gradientFrom: "rgba(214, 230, 254, 1)",
+        gradientTo: "rgba(214, 252, 254, 0)",
 
         gradientBmiFrom: "rgba(52, 95, 246, 1)",
         gradientBmiTo: "rgba(88, 125, 255, 1)",
@@ -24,7 +24,7 @@ export default {
     },
     fontSize: {
       headingXL: "64px",
-      heading: "48px",
+      headingL: "48px",
       headingM: "24px",
       headingS: "20px",
 

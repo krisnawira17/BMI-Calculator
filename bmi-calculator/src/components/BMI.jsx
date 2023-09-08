@@ -3,7 +3,7 @@ import BMI_Form_Metric from "./BMI_Form_Metric";
 import BMI_Form_Imperial from "./BMI_Form_Imperial";
 
 export default function BMI() {
-  const [selectedOption, setSelectedOption] = useState("imperial");
+  const [selectedOption, setSelectedOption] = useState("metric");
 
   const handleRadioChange = (event) => {
     setSelectedOption(event.target.value);

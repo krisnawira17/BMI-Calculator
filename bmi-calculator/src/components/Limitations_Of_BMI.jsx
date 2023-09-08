@@ -1,10 +1,9 @@
-/* eslint-disable react/no-unescaped-entities */
+import Limitation_Card from "./Limitation_Card";
 import gender from "../images/icon-gender.svg";
 import age from "../images/icon-age.svg";
 import muscle from "../images/icon-muscle.svg";
 import pregnancy from "../images/icon-pregnancy.svg";
 import race from "../images/icon-race.svg";
-import Limitation_Card from "./Limitation_card";
 
 export default function Limitation_Of_Bmi() {
   return (

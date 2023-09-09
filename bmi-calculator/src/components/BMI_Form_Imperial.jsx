@@ -65,7 +65,7 @@ export default function BMI_Form_Imperial() {
   return (
     <>
       <div className="flex flex-col mt-[3.5rem] ">
-        <div className="mr-[1.5rem]">
+        <div className="lg:mr-[1.5rem]">
           <h2 className="font-semibold text-dark-electric-blue text-bodyS mb-3">
             Height
           </h2>
@@ -73,7 +73,7 @@ export default function BMI_Form_Imperial() {
             <form className="flex flex-row border border-borders p-3 rounded-xl">
               <input
                 type="text"
-                className="focus:outline-none font-semibold text-headingM w-[12rem]"
+                className="focus:outline-none font-semibold text-headingM w-full"
                 placeholder="0"
                 value={feet}
                 onChange={(e) => setFeet(e.target.value)}
@@ -84,7 +84,7 @@ export default function BMI_Form_Imperial() {
             <form className="flex flex-row border border-borders p-3 rounded-xl">
               <input
                 type="text"
-                className="focus:outline-none font-semibold text-headingM w-[12rem]"
+                className="focus:outline-none font-semibold text-headingM w-full"
                 placeholder="0"
                 value={inch}
                 onChange={(e) => setInches(e.target.value)}
@@ -102,7 +102,7 @@ export default function BMI_Form_Imperial() {
             <form className="flex flex-row border border-borders p-3 rounded-xl">
               <input
                 type="text"
-                className="focus:outline-none font-semibold text-headingM w-[12rem]"
+                className="focus:outline-none font-semibold text-headingM w-full"
                 placeholder="0"
                 value={stone}
                 onChange={(e) => setStones(e.target.value)}
@@ -113,7 +113,7 @@ export default function BMI_Form_Imperial() {
             <form className="flex flex-row border border-borders p-3 rounded-xl">
               <input
                 type="text"
-                className="focus:outline-none font-semibold text-headingM w-[11rem]"
+                className="focus:outline-none font-semibold text-headingM w-full"
                 placeholder="0"
                 value={pounds}
                 onChange={(e) => setPounds(e.target.value)}
@@ -124,7 +124,7 @@ export default function BMI_Form_Imperial() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gradientBmiFrom to-gradientBmiTo rounded-r-full mt-5 flex flex-row p-6  w-[31rem] ">
+      <div className="bg-gradient-to-r from-gradientBmiFrom to-gradientBmiTo lg:rounded-r-full rounded-xl h-[20rem] lg:h-[10rem] mt-5 flex flex-row p-6  lg:w-[31rem] w-full  ">
         {bmi === null ? (
           <div className="flex flex-col gap-8">
             <h1 className="text-white text-headingM font-semibold">Welcome!</h1>
@@ -147,7 +147,7 @@ export default function BMI_Form_Imperial() {
               </span>
             </div>
             <div>
-              <p className="text-white font-bodyS w-[15rem]">
+              <p className="text-white font-bodyS lg:w-[15rem] w-full">
                 Your BMI suggest that you're <span>{bmiStatus()}.</span> Your
                 ideal weight is between{" "}
                 <span>

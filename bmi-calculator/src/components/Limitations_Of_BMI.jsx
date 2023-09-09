@@ -7,12 +7,12 @@ import race from "../images/icon-race.svg";
 
 export default function Limitation_Of_Bmi() {
   return (
-    <div className="mt-[7rem] flex flex-row gap-[20rem]">
-      <div className="flex flex-col">
-        <h2 className="text-headingL text-gunmetal font-semibold ">
+    <div className="lg:mt-[7rem] mt-[40rem] flex lg:flex-row flex-col lg:gap-[20rem] gap-[5rem]">
+      <div className="flex flex-col mx-auto text-center lg:text-left">
+        <h2 className="text-headingL text-gunmetal font-semibold">
           Limitations of BMI
         </h2>
-        <p className="w-[35rem] mt-14 text-dark-electric-blue">
+        <p className="lg:w-[35rem] mt-14 text-dark-electric-blue w-full">
           Although BMI is often a practical indicator of healthy weight, it is
           not suited for every person. Specific groups should carefully consider
           their BMI outcomes, and in certain cases, the measurement may not be
@@ -20,14 +20,14 @@ export default function Limitation_Of_Bmi() {
         </p>
       </div>
 
-      <div className="flex flex-col gap-16">
+      <div className="flex flex-col lg:gap-16 gap-8">
         <Limitation_Card
           imgSrc={gender}
           header="Gender"
           paragraph="The development and body fat composition of girls and boys vary with age. Consequently, a child's age and gender are considered when evaluating their BMI."
         />
 
-        <div className=" absolute flex flex-row gap-8 mt-[18rem] left-[36rem]">
+        <div className=" lg:absolute flex lg:flex-row flex-col gap-8 lg:mt-[18rem] lg:left-[36rem]">
           <Limitation_Card
             imgSrc={age}
             header="Age"
@@ -41,7 +41,7 @@ export default function Limitation_Of_Bmi() {
           />
         </div>
 
-        <div className="absolute flex flex-row gap-8 mt-[32rem] left-[16rem]">
+        <div className="lg:absolute flex lg:flex-row flex-col gap-8 lg:mt-[32rem] lg:left-[16rem]">
           <Limitation_Card
             imgSrc={pregnancy}
             header="Pregnancy"

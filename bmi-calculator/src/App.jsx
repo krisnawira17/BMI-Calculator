@@ -7,9 +7,9 @@ import Tips from "./components/Tips";
 function App() {
   return (
     <>
-      <div className="relative container mx-auto flex-col flex">
-        <div className=" absolute z-1 top-0 left-0 h-[46rem] gradient-custom rounded-b-3xl  w-[64rem]" />
-        <div className="relative flex flex-row">
+      <div className="relative container mx-auto flex-col flex overflow-hidden">
+        <div className=" absolute z-1 top-0 left-0 lg:h-[46rem] h-[50rem] gradient-custom rounded-b-3xl w-screen  lg:w-[64rem]" />
+        <div className="relative flex lg:flex-row flex-col">
           <Hero />
           <BMI />
         </div>

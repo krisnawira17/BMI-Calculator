@@ -6,7 +6,7 @@ import Tips_Content from "./Tips_Content";
 export default function Tips() {
   return (
     <>
-      <div className="gradient-custom absolute w-full z-10 lg:h-[25rem] h-[64rem] lg:top-[95rem] top-[195rem] opacity-25 rounded-3xl"></div>
+      <div className="gradient-custom absolute w-full z-10 lg:h-[30rem] h-[55rem] lg:top-[100rem] md:top-[110rem] top-[175rem] opacity-25 rounded-3xl"></div>
       <div className="relative flex lg:flex-row flex-col h-[25rem] p-[4rem] lg:justify-between gap-20">
         <Tips_Content
           imgSrc={eating}

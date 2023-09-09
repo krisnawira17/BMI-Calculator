@@ -47,12 +47,12 @@ export default function BMI_Form_Metric() {
 
   return (
     <>
-      <div className="flex lg:flex-row flex-col mt-[3.5rem]  ">
-        <div className="lg:mr-[1.5rem]">
+      <div className="flex md:flex-row flex-col mt-[3.5rem]  ">
+        <div className="md:mr-[1.5rem]">
           <h2 className="font-semibold text-dark-electric-blue text-bodyS mb-3">
             Height
           </h2>
-          <form className="flex flex-row border border-borders p-4 lg:p-3  rounded-xl justify-between ">
+          <form className="flex flex-row border border-borders p-4 md:p-3  rounded-xl justify-between ">
             <input
               type="text"
               className="focus:outline-none font-semibold text-headingM lg:w-[11rem] w-full"
@@ -64,11 +64,11 @@ export default function BMI_Form_Metric() {
           </form>
         </div>
 
-        <div className="mt-4 lg:mt-0">
+        <div className="mt-4 md:mt-0">
           <h2 className="font-semibold text-dark-electric-blue text-bodyS mb-3">
             Weight
           </h2>
-          <form className="flex flex-row border border-borders p-4 lg:p-3  rounded-xl justify-between">
+          <form className="flex flex-row border border-borders p-4 md:p-3  rounded-xl justify-between">
             <input
               type="text"
               className="focus:outline-none font-semibold text-headingM lg:w-[11rem] w-full"
@@ -81,7 +81,7 @@ export default function BMI_Form_Metric() {
         </div>
       </div>
 
-      <div className="bg-gradient-to-r from-gradientBmiFrom to-gradientBmiTo lg:rounded-r-full rounded-xl h-[20rem] lg:h-[10rem] mt-5 flex flex-row p-6  lg:w-[31rem] w-full ">
+      <div className="bg-gradient-to-r from-gradientBmiFrom to-gradientBmiTo md:rounded-r-full rounded-xl h-[20rem] md:h-[10rem] mt-5 flex flex-row p-6  lg:w-[31rem] w-full ">
         {bmi === null ? (
           <div className="flex flex-col gap-8">
             <h1 className="text-white text-headingM font-semibold">Welcome!</h1>

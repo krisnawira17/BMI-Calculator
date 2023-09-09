@@ -3,13 +3,13 @@ import manEating from "../images/image-man-eating.webp";
 
 export default function BMI_Result() {
   return (
-    <div className="lg:mt-[4rem] flex lg:flex-row flex-col lg:gap-[11rem] lg:p-[4rem] p-1rem ">
+    <div className="lg:mt-[4rem] flex md:flex-row flex-col lg:gap-[11rem] lg:p-[4rem] p-1rem ">
       <img
         src={manEating}
         alt="man eating"
-        className="lg:w-[32rem] object-contain"
+        className="lg:w-[32rem] md:w-[24rem] md:absolute -left-[4rem] md:mt-[10rem] object-contain"
       />
-      <div className="flex flex-col gap-[2rem] mt-[10rem] p-2">
+      <div className="flex flex-col gap-[2rem] md:pl-[25rem] mt-[10rem] p-2">
         <h2 className="text-headingL font-semibold lg:w-[35rem] w-full">
           What your BMI result means
         </h2>

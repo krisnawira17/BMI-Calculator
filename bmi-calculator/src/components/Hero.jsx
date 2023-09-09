@@ -5,8 +5,8 @@ export default function Hero() {
     <>
       <div className="pt-[4.7rem] lg:ml-[7rem]">
         <img src={Logo} alt="logo" className="w-[4rem] mx-auto lg:mx-0" />
-        <div className="flex-col mt-[8rem]">
-          <h1 className="text-headingXL leading-[110%] font-semibold text-gunmetal lg:w-[32rem] w-[24rem] mx-auto text-center lg:text-left">
+        <div className="flex-col mt-[8rem] md:p-2">
+          <h1 className="text-headingXL leading-[110%] font-semibold text-gunmetal lg:w-[32rem] w-[24rem] md:w-[32rem] mx-auto text-center lg:text-left">
             Body Mass Index Calculator
           </h1>
           <p className="text-bodyM leading-[150%] text-dark-electric-blue lg:w-[29rem] w-full mx-auto mt-[2.19rem] text-center lg:text-left">

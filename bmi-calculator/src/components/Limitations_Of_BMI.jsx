@@ -7,8 +7,8 @@ import race from "../images/icon-race.svg";
 
 export default function Limitation_Of_Bmi() {
   return (
-    <div className="lg:mt-[7rem] mt-[40rem] flex lg:flex-row flex-col lg:gap-[20rem] gap-[5rem]">
-      <div className="flex flex-col mx-auto text-center lg:text-left">
+    <div className="lg:mt-[7rem] md:mt-[20rem] mt-[30rem] flex lg:flex-row flex-col lg:gap-[20rem] gap-[5rem]">
+      <div className="flex flex-col mx-auto text-center lg:text-left md:p-2">
         <h2 className="text-headingL text-gunmetal font-semibold">
           Limitations of BMI
         </h2>
@@ -20,14 +20,14 @@ export default function Limitation_Of_Bmi() {
         </p>
       </div>
 
-      <div className="flex flex-col lg:gap-16 gap-8">
+      <div className="flex flex-col lg:gap-16 gap-8 items-center">
         <Limitation_Card
           imgSrc={gender}
           header="Gender"
           paragraph="The development and body fat composition of girls and boys vary with age. Consequently, a child's age and gender are considered when evaluating their BMI."
         />
 
-        <div className=" lg:absolute flex lg:flex-row flex-col gap-8 lg:mt-[18rem] lg:left-[36rem]">
+        <div className=" lg:absolute flex md:flex-row flex-col gap-8 lg:mt-[18rem] lg:left-[36rem]">
           <Limitation_Card
             imgSrc={age}
             header="Age"
@@ -41,7 +41,7 @@ export default function Limitation_Of_Bmi() {
           />
         </div>
 
-        <div className="lg:absolute flex lg:flex-row flex-col gap-8 lg:mt-[32rem] lg:left-[16rem]">
+        <div className="lg:absolute flex md:flex-row flex-col gap-8 lg:mt-[32rem] lg:left-[16rem]">
           <Limitation_Card
             imgSrc={pregnancy}
             header="Pregnancy"

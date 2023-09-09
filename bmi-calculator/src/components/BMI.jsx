@@ -10,12 +10,12 @@ export default function BMI() {
   };
 
   return (
-    <div className="bg-white shadow-bmi w-full lg:w-[35rem] lg:h-[32rem] h-[57rem] p-[2rem] rounded-xl lg:ml-[8rem] lg:mt-40 mt-16">
-      <h1 className="lg:text-headingM text-headingL  text-gunmetal font-semibold mb-[2rem] ">
+    <div className="bg-white shadow-bmi w-full md:w-[45rem] md:mx-auto lg:w-[35rem] md:h-[32rem] h-[57rem] p-[2rem] rounded-xl lg:ml-[8rem] lg:mt-40 mt-16">
+      <h1 className="lg:text-headingM md:text-headingM text-headingL  text-gunmetal font-semibold mb-[2rem] ">
         Enter your details below
       </h1>
 
-      <div className="flex flex-row lg:gap-44 gap-8 text-gunmetal text-bodyM font-semibold ">
+      <div className="flex flex-row lg:gap-44 gap-8 md:gap-44 text-gunmetal text-bodyM font-semibold ">
         <label className="cursor-pointer flex flex-row items-center">
           <input
             type="radio"
